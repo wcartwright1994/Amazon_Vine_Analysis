@@ -17,3 +17,10 @@ Based on the data as of 8/7/2021:
 ![calc_support](https://user-images.githubusercontent.com/82549092/128620127-81bed6fb-9a1d-4b84-a168-a8a5cd095bd5.PNG)
 
 ## Summary
+
+Based on the clean dataset, there does not appear to be positivity bias for reviews from the Vine program. As seen in the results section, there is approximately a 10 bps difference in paid versus unpaid 5 star reviews, with the unpaid reviewers having the higher count. 
+
+Additional analysis that can be performed include:
+ * Analyzing the differences in paid versus unpaid average review instead of only looking into 5-star reviews
+ * Including reviews that were considered "unhelpful" and excluded from this analysis, especially for the paid reviews
+ * Update the code to loop through the different product categories to look for categories with positivity bias
